@@ -1,106 +1,3146 @@
 <!DOCTYPE html>
-<html>
-
+ 
+        <html>
 <style>
-table {
-	width:100%;
-	text-align: center;
-	position: relative;
-}
 
-table, th, td {
-	padding: 0.35rem;
-	border: 1px solid black;
-	border-collapse: collapse; 
-}
+        table, th, td {
 
-th {
-	background: white;
-	position: sticky;
-	top: 0;
-}
+        border: 1px solid;
 
-#managerTable {
-    max-height: 600px;
-    overflow: auto;
-}
+        border-collapse: separate;
 
-</style>
+        border-spacing: 0;
 
+        }
+
+        
+
+        table {
+
+        text-align: center;
+
+        position: relative;
+
+        }
+
+        
+
+        thead {
+
+        background: #D2FBA4;
+
+        position: sticky;
+
+        top: 0;
+
+        border: 1px solid black;
+
+        border-collapse: collapse;
+
+        }
+
+        tr:hover {
+
+        background-color: #FBEE0F;
+
+        }
+
+        
+
+        #managerTable {
+
+        max-height: 500px;
+
+        overflow: auto;
+
+        }
+
+        </style>
 <body>
 
-<h2>جدول إختلافات القراء</h2>
+        <h2 style="text-align:center;">جدول إختلافات القراء</h2>
+<div id="managerTable">
+<table style="width:100%">
+<tr>
+ <thead>
 
-<div id="managerTable" >
-<table>
-	<thead>
-		<tr>
-			<th>خلف البزار</th>
-			<th colspan="2">يعقوب الحضرمى</th>
-			<th colspan="2">أبو جعفر المدنى</th>
-			<th colspan="2">الكسائى الكوفى</th>
-			<th colspan="2">حمزة الكوفى</th>
-			<th>عاصم الكوفى</th>
-			<th colspan="2">ابن عامر الشامى</th>
-			<th colspan="2">أبو عمرو البصرى</th>
-			<th colspan="2">ابن كثير المكى</th>
-			<th colspan="2">نافع المدنى</th>
-			<th rowspan="2">الكلمة</th>
-			<th rowspan="2">رقم الآية</th>
-			<th rowspan="2">السورة</th>
-		</tr>
+        <th colspan="1">خلف البزار</th>
+ 
+        <th colspan="2">يعقوب الحضرمى</th>
 
-		<tr>
-			<th>إسحاق/إدريس</th>
-			<th>روح</th>
-			<th>رويس</th>
-			<th>ابن جماز</th>
-			<th>ابن وردان</th>
-			<th>الدورى</th>
-			<th>أبو الحارث</th>
-			<th>خلاد</th>
-			<th>خلف</th>
-			<th>شعبة</th>
-			<th>ابن ذكوان</th>
-			<th>هشام</th>
-			<th>السوسى</th>
-			<th>الدورى</th>
-			<th>قنبل</th>
-			<th>البزى</th>
-			<th>ورش</th>
-			<th>قالون</th>
-		</tr>
+        <th colspan="2">أبو جعفر المدنى</th>
 
-	</thead>
-	
-	<tbody>
-		<tr>
-			<td></td>
-			<td style="background-color:rgb(200,200,200);">تُنْزِلَ</td>
-			<td>تُنْزِلَ</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td>تُنْزِلَ</td>
-			<td>تُنْزِلَ</td>
-			<td>تُنْزِلَ</td>
-			<td>تُنْزِلَ</td>
-			<td></td>
-			<td></td>
-			<td style="text-align:right">يَسْـَٔلُكَ أَهْلُ ٱلْكِتَـٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَـٰبًۭا مِّنَ ٱلسَّمَآءِ ۚ</td>
-			<td>153</td>
-			<td>4</td>
-		</tr>
-		
-		
-	</tbody>
-	
+        <th colspan="2">الكسائى الكوفى</th>
+
+        <th colspan="2">حمزة الكوفى</th>
+
+        <th colspan="1">عاصم الكوفى</th>
+
+        <th colspan="2">ابن عامر الشامى</th>
+
+        <th colspan="2">أبو عمرو البصرى</th>
+
+        <th colspan="2">ابن كثير المكى</th>
+
+        <th colspan="2">نافع المدنى</th>
+
+        <th rowspan="2">الكلمة</th>
+
+        <th rowspan="2">رقم الآية</th>
+
+        <th rowspan="2">السورة</th>
+
+        </tr><tr>
+
+        <th>إسحاق/إدريس</th>
+
+        <th>روح</th>
+
+        <th>رويس</th>
+
+        <th>ابن جماز</th>
+
+        <th>ابن وردان</th>
+
+        <th>الدورى</th>
+
+        <th>أبو الحارث</th>
+
+        <th>خلاد</th>
+
+        <th>خلف</th>
+
+        <th>شعبة</th>
+
+        <th>ابن ذكوان</th>
+
+        <th>هشام</th>
+
+        <th>السوسى</th>
+
+        <th>الدورى</th>
+
+        <th>قنبل</th>
+
+        <th>البزى</th>
+
+        <th>ورش</th>
+
+        <th>قالون</th>
+
+        </tr>
+ </thead>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ملك</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ملك</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">ملك</td>
+<td style="text-align:right;" colspan="1">مالك يوم الدين</td>
+<td colspan="1">4</td>
+<td colspan="1">1</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">السراط</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">1) الصراط
+2) الص۬راط</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">الص۬راط</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">السراط</td>
+<td colspan="3"></td>
+<td style="text-align:right;" colspan="1">اهدنا الصراط المستقيم</td>
+<td colspan="1">6</td>
+<td colspan="1">1</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">سراط</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ص۬راط</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">سراط</td>
+<td colspan="3"></td>
+<td style="text-align:right;" colspan="1">صراط الذين أنعمت </td>
+<td colspan="1">7</td>
+<td colspan="1">1</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">يُخادعون</td>
+<td style="text-align:right;" colspan="1">وما يَخدعون</td>
+<td colspan="1">9</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُكذِّبون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">يُكذِّبون</td>
+<td style="text-align:right;" colspan="1">بما كانوا  يَكذِبون</td>
+<td colspan="1">10</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إدغام بخلف</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">لذهبَ بسمعهم</td>
+<td colspan="1">20</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرجِعون</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">ثم يحييكم ثم إليه تُرجَعون</td>
+<td colspan="1">28</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فأزالَهما</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فأزَلَّهما الشيطان</td>
+<td colspan="1">36</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قتلقى ءادمَ من ربه كلماتٌ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">قتلقى ءادمُ مر ربه كلماتٍ</td>
+<td colspan="1">37</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">خوفَ</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">فلا خوفً عليهم</td>
+<td colspan="1">38</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">إمالة</td>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">تقليل بخلف</td>
+<td colspan="1"></td>
+<td style="text-align:right;" colspan="1">فمن تبع هداى</td>
+<td colspan="1">38</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تقبل</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تقبل</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ولا يقبل منها شفاعة</td>
+<td colspan="1">48</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وعدنا</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وعدنا</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وإذ واعدنا موسى</td>
+<td colspan="1">51</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">إمالة</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">بارئْكم</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) بارئْكم
+2) اختلاس ثلثى الكسرة</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">فتوبوا إلى بارئِكم</td>
+<td colspan="1">54</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">يُغْفَر</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تُغْفَر</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">يُغْفَر</td>
+<td style="text-align:right;" colspan="1">نَغْفِر لكم خطاياكم</td>
+<td colspan="1">58</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يأمرْكم</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">1)يأمرْكم
+2)اختلاس الضمة</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">إن الله يأمركم أن تذبحوا بقرة</td>
+<td colspan="1">67</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعملون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لما يهبط من خشية الله, وما الله بغافل عما تعملون</td>
+<td colspan="1">73</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أمانىَ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">إلا أمانىَّ</td>
+<td colspan="1">78</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إدغام</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إدغام</td>
+<td colspan="5"></td>
+<td style="text-align:right;" colspan="1">فويل للذين يكتبون الكتابَ بأيديهم</td>
+<td colspan="1">79</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">خطيئاته</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">خطيّته فقط وقفاً</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">خطيئاته</td>
+<td style="text-align:right;" colspan="1">وأحاطت به خطيئته</td>
+<td colspan="1">81</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يعبدون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعبدون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وإذ أخذنا ميثاق بنى إسرائيل لا تعبدون</td>
+<td colspan="1">83</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">حَسَنًا</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">حَسَنًا</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وقولوا للناس حُسْنًا</td>
+<td colspan="1">83</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="5">تَظّاهَرون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">تَظّاهَرون</td>
+<td style="text-align:right;" colspan="1">تَظاهَرون عليهم بالإثم والعدوان</td>
+<td colspan="1">85</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أَسْرى</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وإن يأتوكم أُسارى تُفادوهم</td>
+<td colspan="1">85</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">تَفْدوهم</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَفْدوهم</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">تَفْدوهم</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وإن يأتوكم أُسارى تُفادوهم</td>
+<td colspan="1">85</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعملون</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يعملون</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يعملون</td>
+<td style="text-align:right;" colspan="1">يردون إلى أشد العذاب, وما الله بغافل عما تعملون</td>
+<td colspan="1">85</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">القُدْس</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وأيدنه بروح القُدُس</td>
+<td colspan="1">87</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُنْزِلَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُنْزِلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">بغيًا أن يُنَزِّلَ الله من فضله</td>
+<td colspan="1">90</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تعملون</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">وما هو بمزحزحه من العذاب أن يعمر, والله بصيرٌ بما يعملون</td>
+<td colspan="1">96</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">جَبرَئيل</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">جَبرَئِل</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">جَبريل</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">من كان عدوًا لجِبْرِيل</td>
+<td colspan="1">97</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">ميكائيل</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ميكائِل</td>
+<td style="background-color:rgb(215,215,215);" colspan="7">ميكائيل</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ميكائيل</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ميكائِل</td>
+<td style="text-align:right;" colspan="1">ورسله وجبريل وميكال فإن الله عدوٌ للكافرين</td>
+<td colspan="1">98</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">ولكنِ الشياطينُ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولكنِ الشياطينُ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ولكنَّ الشياطينَ كفروا يعلمون الناس السحر</td>
+<td colspan="1">102</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُنْزِلَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُنْزِلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ما يود الذين كفروا ... أن ينزل عليكم من خير من ربكم</td>
+<td colspan="1">105</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نُنْسِخ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ما نَنْسَخ من ءاية أو ننسها نأت بخير منها أو مثلها</td>
+<td colspan="1">106</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">نَنْسَأها</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ما ننسخ من ءاية أو نُنْسِها نأت بخير منها أو مثلها</td>
+<td colspan="1">106</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أمانيهِم</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">تلك أمانِيُّهم قل هاتوا برهانكم</td>
+<td colspan="1">111</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قالوا</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وقالوا اتخذ الله ولدًا</td>
+<td colspan="1">116</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فيكونَ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">كن فيكونُ</td>
+<td colspan="1">117</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَسْأَلْ</td>
+<td colspan="13"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَسْأَلْ</td>
+<td style="text-align:right;" colspan="1">ولا تُسْأَلُ عن أصحاب الجحيم</td>
+<td colspan="1">119</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">1)إبراهام
+2)إبراهيم
+في جميع سورة البقرة</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">إبراهام في جميع سورة البقرة</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">إبراهيم</td>
+<td colspan="1">124</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="7">عهدىَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">عهدىَ</td>
+<td style="text-align:right;" colspan="1">لا ينال عهدى الظالمين</td>
+<td colspan="1">124</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واتَّخَذوا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واتَّخَذوا</td>
+<td style="text-align:right;" colspan="1">واتَّخِذوا من مقام إبراهيم مصلى</td>
+<td colspan="1">125</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">بيتى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">بيتى</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">بيتى</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">طهرا بيتىَ للطائفين</td>
+<td colspan="1">125</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فأُمْتِعُه</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ومن كفر فأمَتِّعُه قليلا</td>
+<td colspan="1">126</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وأرْنا</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">وأرْنا</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">وأر۪نا</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وأرْنا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وأرِنا مناسكنا</td>
+<td colspan="1">128</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأوصى</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأوصى</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأوصى</td>
+<td style="text-align:right;" colspan="1">ووصى بها إبراهيم بنيه</td>
+<td colspan="1">132</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يقولون</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يقولون</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يقولون</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">يقولون</td>
+<td style="text-align:right;" colspan="1">أم تقولون إن إبراهيم وإسماعيل وإسحاق</td>
+<td colspan="1">140</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">ءا۬نتم</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ء’ا۬نتم</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">1)ء’أنتم
+2)ء’ا۬نتم</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ء’ا۬نتم</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">ءا۬نتم</td>
+<td style="background-color:rgb(165,165,165);" colspan="1">1)ءا۬نتم
+2)ءآنتم</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ء’ا۬نتم</td>
+<td style="text-align:right;" colspan="1">قل ءأنتم أعلم أم الله</td>
+<td colspan="1">140</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">تعملون</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">تعملون</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تعملون</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ليعلمون أنه الحق من ربك وما الله بغافل عما يعملون</td>
+<td colspan="1">144</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مُوَلَّاها</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ولكل وجهة هو مُوَلِّيها</td>
+<td colspan="1">148</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعملون</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وإنه للحق من ربك وما الله بغافل عما تعملون</td>
+<td colspan="1">149</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="18"></td>
+<td style="text-align:right;" colspan="1">فلا تخشوهم واخشونى</td>
+<td colspan="1">150</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فاذكرونىَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فاذكرونى أذكركم</td>
+<td colspan="1">152</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تكفرونى</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">ولا تكفرون</td>
+<td colspan="1">152</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">يَطَّوَّعْ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يَطَّوَّعْ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">ومن تَطَوَّعَ خيرا فإن الله شاكرٌ عليم</td>
+<td colspan="1">158</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">الريح</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">الريح</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وتصريف الرياح والسحاب المسخر</td>
+<td colspan="1">164</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ترى</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ترى</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ترى</td>
+<td style="text-align:right;" colspan="1">ولو يرى الذين ظلموا</td>
+<td colspan="1">165</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُرَوْن</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">إذ يَرَوْن العذاب</td>
+<td colspan="1">165</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">إن, وإن</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">أن القوة لله جميعا وأن الله شديد العذاب</td>
+<td colspan="1">165</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">الميِّتة</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">إنما حرم عليكم الميْتَة</td>
+<td colspan="1">173</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">فمنُ اضطُر</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فمنُ اضطِر</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فمنُ اضطُر</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فمنُ اضطُر</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">فمنُ اضطُر</td>
+<td style="text-align:right;" colspan="1">فمنِ اضطُر غير باغ</td>
+<td colspan="1">173</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">الكتابْ بالحق بخلف</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">ذلك بأن الله نزل الكتابَ بالحق</td>
+<td colspan="1">176</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="7">البرُّ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">البرُّ</td>
+<td style="text-align:right;" colspan="1">ليس البرَّ أن تولوا وجوهكم</td>
+<td colspan="1">177</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولكنِ البرُّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولكنِ البرُّ</td>
+<td style="text-align:right;" colspan="1">ولكنَّ البرَّ من ءامن بالله</td>
+<td colspan="1">177</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">موَص</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="5">موَص</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">فمن خاف من موص جنفا </td>
+<td colspan="1">182</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فديةُ طعامِ مساكين</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">فديةُ طعامِ مساكين</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">مساكين</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فديةُ طعامِ مساكين</td>
+<td style="text-align:right;" colspan="1">وعلى الذين يطيقونه فديةٌ طعامُ مسكين</td>
+<td colspan="1">184</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">يطَّوَعْ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يطَّوَعْ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فمن تطَوَّعَ خيراً</td>
+<td colspan="1">184</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولتكَمِّلوا</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ولتكَمِّلوا</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">ولتكْمِلوا العدة</td>
+<td colspan="1">185</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">الداعى إذا دعانى</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">الداعى إذا دعانى وصلاً</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">الداعى إذا دعانى وصلاً</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">الداعى إذا دعانى وصلاً</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">الداعى إذا دعانى وصلاً بخلف</td>
+<td style="text-align:right;" colspan="1">أجيب دعوة الداع إذا دعان</td>
+<td colspan="1">186</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="16"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">بىَ</td>
+<td colspan="1"></td>
+<td style="text-align:right;" colspan="1">وليؤمنوا بى لعلهم يرشدون</td>
+<td colspan="1">186</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولكنِ البرُّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولكنِ البرُّ</td>
+<td style="text-align:right;" colspan="1">ولكنَّ البرَّ من اتقى</td>
+<td colspan="1">189</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">تقتلوهم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تقتلوهم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">ولا تقاتلوهم عند المسجد الحرام</td>
+<td colspan="1">191</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">يقتلوكم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يقتلوكم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">حتى يقاتلوكم فيه</td>
+<td colspan="1">191</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">قتلوكم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">قتلوكم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فإن قاتلوكم فاقتلوهم</td>
+<td colspan="1">191</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">رفثٌ , فسوقٌ</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">رفثٌ , فسوقٌ , جدالٌ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">رفثٌ , فسوقٌ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فلا رفثَ ولا فسوقَ ولا جدالَ في الحج</td>
+<td colspan="1">197</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واتقونى</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">واتقونى وصلا</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">واتقونى وصلا</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">واتقون يا أولى الألباب</td>
+<td colspan="1">197</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">السَّلم</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">السَّلم</td>
+<td style="text-align:right;" colspan="1">ادخلوا في السِّلم</td>
+<td colspan="1">208</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">والملائكةِ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">في ظلل من الغمام والملائكةُ</td>
+<td colspan="1">210</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">تَرجِع</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تَرجِع</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرجِع</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وإلى الله تُرجَع الأمور</td>
+<td colspan="1">210</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لِیُحْكَمَ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">لِیَحْكُمَ بين الناس فيما اختلفوا فيه</td>
+<td colspan="1">213</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="16"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يقولُ</td>
+<td style="text-align:right;" colspan="1">حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ ءَامَنُوا مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ</td>
+<td colspan="1">214</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">رحمة</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">رحمة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">رحمة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ٱللَّهِ أُوَٰلئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ</td>
+<td colspan="1">218</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">كثير</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1"> قُلْ فِيهِمَآ إِثْمٌ كَبِيرٌ وَمَنَـٰفِعُ لِلنَّاسِ</td>
+<td colspan="1">219</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">العفوُ</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">قُلِ الْعَفْوَ</td>
+<td colspan="1">219</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="15"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">لا۬عنتكم بخلف</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ</td>
+<td colspan="1">220</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">يَطَّهَّرْنَ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="5">يَطَّهَّرْنَ</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">ٱلْمَحِيضِ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ</td>
+<td colspan="1">222</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُخافا</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُخافا</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ</td>
+<td colspan="1">229</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">تضارّْ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تضارُّ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لَا تُضَآرَّ وَٰلِدَةٌ بِوَلَدِهَا</td>
+<td colspan="1">233</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أتيتم</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَإِنْ أَرَدتُّمْ أَن تَسْتَرْضِعُوٓا أَوْلَـٰدَكُمْ فَلَا جُنَاحَ عَلَيْكُمْ إِذَا سَلَّمْتُم مَّآ ءَاتَيْتُم بِٱلْمَعْرُوفِ</td>
+<td colspan="1">233</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">تُماسُّوهُنَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تُماسُّوهُنَّ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">تَمَسُّوهُنَّ</td>
+<td colspan="1">236</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قَدْرُهُ</td>
+<td colspan="8"></td>
+<td style="background-color:rgb(240,240,240);" colspan="7">قَدْرُهُ</td>
+<td style="text-align:right;" colspan="1">وَمَتِّعُوهُنَّ عَلَى ٱلْمُوسِعِ قَدَرُهُۥ وَعَلَى ٱلْمُقْتِرِ قَدَرُهُۥ</td>
+<td colspan="1">236</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">اختلاس كسرة بيدهِ</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">أَوْ يَعْفُوَا ٱلَّذِى بِيَدِهِۦ عُقْدَةُ ٱلنِّكَاحِ</td>
+<td colspan="1">237</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">وصيةٌ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">وصيةٌ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وصيةٌ</td>
+<td style="text-align:right;" colspan="1">وَصِيَّةً لِّأَزْوَٰجِهِم مَّتَـٰعًا إِلَى ٱلْحَوْلِ غَيْرَ إِخْرَاجٍ</td>
+<td colspan="1">240</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(190,190,190);" colspan="1">فيضاعفُهُ</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فيضعِّفَهُ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فيضعِّفُهُ</td>
+<td style="background-color:rgb(190,190,190);" colspan="4">فيضاعفُهُ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فيضعِّفَهُ</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">فيضاعفُهُ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فيضعِّفُهُ</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">فيضاعفُهُ</td>
+<td style="text-align:right;" colspan="1">فَيُضَـٰعِفَهُۥ لَهُۥأَضْعَافًا كَثِيرَةً</td>
+<td colspan="1">245</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">ويبسط</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ويبصط</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ويبسط</td>
+<td style="background-color:rgb(215,215,215);" colspan="4">ويبصط</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ويبسط</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ويبصط</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">ويبسط</td>
+<td style="background-color:rgb(215,215,215);" colspan="3">ويبصط</td>
+<td style="text-align:right;" colspan="1">وَٱللَّهُ يَقْبِضُ وَيَبْصۜطُ وَإِلَيْهِ تُرْجَعُونَ</td>
+<td colspan="1">245</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرجِعون</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">وَٱللَّهُ يَقْبِضُ وَيَبْصۜطُ وَإِلَيْهِ تُرْجَعُونَ</td>
+<td colspan="1">245</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td style="text-align:right;" colspan="1">مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ</td>
+<td colspan="1">249</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">غَرفة</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">غَرفة</td>
+<td style="text-align:right;" colspan="1">مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ</td>
+<td colspan="1">249</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">اختلاس كسرة بيدهِ</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ</td>
+<td colspan="1">249</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">دِفاعُ</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">دِفاعُ</td>
+<td style="text-align:right;" colspan="1">وَلَوْلا دَفْعُ الله الناس</td>
+<td colspan="1">251</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">بيعَ, خلةَ, شفاعةَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">بيعَ, خلةَ, شفاعةَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لا بَیْعٌ فِیه وَلا خُلَّةٌ وَلا شَفَاعَةٌ</td>
+<td colspan="1">254</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ربى</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">إِذْ قَالَ إِبْرَٰهِـۧمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ</td>
+<td colspan="1">258</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">حذف ھاء يتسنه وصلا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">حذف ھاء يتسنه وصلا</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ </td>
+<td colspan="1">259</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="5">نُنشِرُهَا</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">نُنشِرُهَا</td>
+<td style="text-align:right;" colspan="1">وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا</td>
+<td colspan="1">259</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أرْنى</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">أرْنى</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">اختلاس كسرة الراء</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أرْنى</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَإِذْ قَالَ إِبْرَٰهِـۧمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ</td>
+<td colspan="1">260</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">فصِرهن</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">فصِرهن</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فصِرهن</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">قَالَ فَخُذْ أَرْبَعَةًۭ مِّنَ ٱلطَّيْرِ فَصُرْهُنَّ إليك</td>
+<td colspan="1">260</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">جزَّا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">جزُؤا</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍۢ مِّنْهُنَّ جُزْءًۭا</td>
+<td colspan="1">260</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يضعِّف</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يضعِّف</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يضعِّف</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ</td>
+<td colspan="1">261</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="9">برُبوة</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">برُبوة</td>
+<td style="text-align:right;" colspan="1">كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌۭ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ</td>
+<td colspan="1">265</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مرضاة بإمالة</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ</td>
+<td colspan="1">265</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="15"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">وَلآ تَّیَمَّمُوا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلا تَیَمَّمُوا</td>
+<td colspan="1">267</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يؤتِى</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">وَمَن يُؤْتَ ٱلْحِكْمَةَ فَقَدْ أُوتِىَ خَيْرًۭا كَثِيرًۭا</td>
+<td colspan="1">269</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">فنَعِمَّا</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فنِعْمَّا</td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فنَعِمَّا</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) فنِعِمَّا باختلاس الكسرة
+2)فِعْمَّا</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فنَعِمَّا</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">1) فنِعِمَّا باختلاس الكسرة
+2)فِعْمَّا</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) فنِعِمَّا باختلاس الكسرة
+2)فِعْمَّا</td>
+<td style="text-align:right;" colspan="1">إِن تُبْدُوا ٱلصَّدَقَـٰتِ فَنِعِمَّا هِىَ</td>
+<td colspan="1">271</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">ونُكَفِّرْ</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ونُكَفِّرُ</td>
+<td style="background-color:rgb(240,240,240);" colspan="6">ونُكَفِّرْ</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ونُكَفِّرُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">ونُكَفِّرُ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ونُكَفِّرْ</td>
+<td style="text-align:right;" colspan="1">وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌۭ لَّكُمْ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ</td>
+<td colspan="1">271</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">فئاذنوا</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">فَإِن لَّمْ تَفْعَلُوا۟ فَأْذَنُوا۟ بِحَرْبٍۢ مِّنَ ٱللَّهِ وَرَسُولِهِۦ</td>
+<td colspan="1">279</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">عسُرة</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">وَإِن كَانَ ذُو عُسْرَةٍۢ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍۢ</td>
+<td colspan="1">280</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="16"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ميسُرة</td>
+<td style="text-align:right;" colspan="1">وَإِن كَانَ ذُو عُسْرَةٍۢ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍۢ</td>
+<td colspan="1">280</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="9">تصَّدَّقوا</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">تصَّدَّقوا</td>
+<td style="text-align:right;" colspan="1">وَأَن تَصَدَّقُوا۟ خَيْرٌۭ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ</td>
+<td colspan="1">280</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرجِعون</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرجِعون</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وَٱتَّقُوا۟ يَوْمًۭا تُرْجَعُونَ فِيهِ إِلَى ٱللَّهِ</td>
+<td colspan="1">281</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">یُمِلَّ ھْوَ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">أو لا يستطيع أَنْ یُمِلَّ ھُوَ</td>
+<td colspan="1">282</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">إِن</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ</td>
+<td colspan="1">282</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فتُذْكِرَ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فَتُذَكِّرُ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فتُذْكِرَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فرَجُلٌۭ وَٱمْرَأَتَانِ مِمَّن تَرْضَوْنَ مِنَ ٱلشُّهَدَآءِ أَن تَضِلَّ إِحْدَىٰهُمَا فَتُذَكِّرَ إِحْدَىٰهُمَا ٱلْأُخْرَىٰ</td>
+<td colspan="1">282</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="9">تجارةٌ حاضرةٌ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">تجارةٌ حاضرةٌ</td>
+<td style="text-align:right;" colspan="1">إِلَّآ أَن تَكُونَ تِجَـٰرَةً حَاضِرَةًۭ تُدِيرُونَهَا بَيْنَكُمْ</td>
+<td colspan="1">282</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُضَآرْ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">وَلَا يُضَآرَّ كَاتِبٌۭ وَلَا شَهِيدٌۭ</td>
+<td colspan="1">282</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فرُهُنٌ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1"> وَإِن كُنتُمْ عَلَىٰ سَفَرٍۢ وَلَمْ تَجِدُوا۟ كَاتِبًۭا فَرِهَانٌۭ مَّقْبُوضَةٌۭ</td>
+<td colspan="1">283</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فليُوَدِّ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">فَلْیُؤَدِّ الذى اؤتمن أمانته</td>
+<td colspan="1">283</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(190,190,190);" colspan="1">فيغفرْ لمن</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(190,190,190);" colspan="4">فيغفرْ لمن</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">فيغفر لّمن</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">فيغفر لّمن بخلف</td>
+<td style="background-color:rgb(190,190,190);" colspan="4">فيغفرْ لمن</td>
+<td style="text-align:right;" colspan="1">يُحَاسِبْكُم بِهِ ٱللَّهُ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ</td>
+<td colspan="1">284</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">ويعذب مّن</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">ويعذب مّن</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ويعذب مّن</td>
+<td style="background-color:rgb(240,240,240);" colspan="3">ويعذبْ من</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ويعذب مّن</td>
+<td style="text-align:right;" colspan="1">يُحَاسِبْكُم بِهِ ٱللَّهُ فَيَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ</td>
+<td colspan="1">284</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">وكِتابِهِ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وكِتابِهِ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">كُلٌّ ءَامَنَ بِٱللَّهِ وَمَلَـٰٓئِكَتِهِۦ وَكُتُبِهِۦ وَرُسُلِهِۦ</td>
+<td colspan="1">285</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لا يفرق</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّن رُّسُلِهِۦ</td>
+<td colspan="1">285</td>
+<td colspan="1">2</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">سيغلبون ويحشرون</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">سيغلبون ويحشرون</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ</td>
+<td colspan="1">12</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">ترونهم</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ترونهم</td>
+<td style="text-align:right;" colspan="1">وَأُخْرَىٰ كَافِرَةٌۭ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ</td>
+<td colspan="1">13</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أَنَّ</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">إِنَّ ٱلدِّينَ عِندَ ٱللَّهِ ٱلْإِسْلَـٰمُ ۗ</td>
+<td colspan="1">19</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ويُقاتِلون</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ</td>
+<td colspan="1">21</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">وجهِى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="5">وجهِى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وجهِى</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ</td>
+<td colspan="1">20</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">اتبعنى</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">اتبعنۧ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">اتبعنۧ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">اتبعنۧ</td>
+<td style="text-align:right;" colspan="1">فَإِنْ حَآجُّوكَ فَقُلْ أَسْلَمْتُ وَجْهِىَ لِلَّهِ وَمَنِ ٱتَّبَعَنِ ۗ</td>
+<td colspan="1">20</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ليُحْكَمَ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">يُدْعَوْنَ إِلَىٰ كِتَـٰبِ ٱللَّهِ لِيَحْكُمَ بَيْنَهُمْ</td>
+<td colspan="1">23</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="7">الميْت</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ</td>
+<td colspan="1">27</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَقِيَّةً</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">فَلَيْسَ مِنَ ٱللَّهِ فِى شَىْءٍ إِلَّآ أَن تَتَّقُوا۟ مِنْهُمْ تُقَىٰةًۭ ۗ</td>
+<td colspan="1">28</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وضَعْتُ</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">وضَعْتُ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ</td>
+<td colspan="1">36</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وكفَلَها</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">وكفَلَها</td>
+<td style="text-align:right;" colspan="1">وَكَفَّلَهَا زَكَرِيَّا ۖ</td>
+<td colspan="1">37</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">زكرياءُ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">زكرياءَ</td>
+<td style="background-color:rgb(215,215,215);" colspan="8">زكرياءُ</td>
+<td style="text-align:right;" colspan="1">وَكَفَّلَهَا زَكَرِيَّا ۖ</td>
+<td colspan="1">37</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">امرأة</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">امرأة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">امرأة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًۭا</td>
+<td colspan="1">35</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منىَ</td>
+<td style="text-align:right;" colspan="1">فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ</td>
+<td colspan="1">35</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وإنىَ</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وإنىَ</td>
+<td style="text-align:right;" colspan="1">مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَـٰنِ ٱلرَّجِيمِ</td>
+<td colspan="1">36</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">فنادىٰه</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فنادىٰه</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ</td>
+<td colspan="1">39</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">إِنَّ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">إِنَّ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ</td>
+<td colspan="1">39</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يَبْشُرُكِ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ</td>
+<td colspan="1">39</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إمالة المحراب</td>
+<td colspan="7"></td>
+<td style="text-align:right;" colspan="1">فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌۭ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ</td>
+<td colspan="1">39</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يَبْشُرُكِ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">يَـٰمَرْيَمُ إِنَّ ٱللَّهَ يُبَشِّرُكِ بِكَلِمَةٍۢ مِّنْهُ ٱسْمُهُ ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ</td>
+<td colspan="1">45</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لىَ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لىَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لىَ</td>
+<td style="text-align:right;" colspan="1">قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةًۭ ۖ</td>
+<td colspan="1">41</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فيكونَ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ</td>
+<td colspan="1">47</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">ونعلمه</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">ونعلمه</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">ونعلمه</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَيُعَلِّمُهُ ٱلْكِتَـٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ</td>
+<td colspan="1">48</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">إِنِّىَ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">أَنِّىَ</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">إِنِّىَ</td>
+<td style="text-align:right;" colspan="1">أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا</td>
+<td colspan="1">49</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">كهيّة الطائِرِ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا</td>
+<td colspan="1">49</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">طائراً</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">طائراً</td>
+<td style="text-align:right;" colspan="1">أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا</td>
+<td colspan="1">49</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأطيعونى</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ</td>
+<td colspan="1">50</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أَنصَارِىَ</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أَنصَارِىَ</td>
+<td style="text-align:right;" colspan="1">قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ</td>
+<td colspan="1">52</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(190,190,190);" colspan="1">فنوفيهِم</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">فنوفيهُم</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">فيوفيهُم</td>
+<td style="background-color:rgb(190,190,190);" colspan="15">فنوفيهِم</td>
+<td style="text-align:right;" colspan="1">وَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ ۗ</td>
+<td colspan="1">57</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لعنة</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لعنة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">لعنة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَـٰذِبِينَ</td>
+<td colspan="1">61</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ءأن يؤتىٰٓ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">قُلْ إِنَّ ٱلْهُدَىٰ هُدَى ٱللَّهِ أَن يُؤْتَىٰٓ أَحَدٌۭ مِّثْلَ مَآ أُوتِيتُمْ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْ ۗ</td>
+<td colspan="1">73</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">يؤدِهِ</td>
+<td style="background-color:rgb(165,165,165);" colspan="2">يودِه</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(190,190,190);" colspan="3">يؤدِهْ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يؤدِهِ بخلف</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">يؤدِهْ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">يؤدِهِ</td>
+<td style="text-align:right;" colspan="1">وَمِنْ أَهْلِ ٱلْكِتَـٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍۢ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍۢ لَّا يُؤَدِّهِۦٓ إِلَيْكَ</td>
+<td colspan="1">75</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تَعْلَمُونَ</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">تَعْلَمُونَ</td>
+<td style="text-align:right;" colspan="1">وَلَـٰكِن كُونُوا۟ رَبَّـٰنِيِّـۧنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَـٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ</td>
+<td colspan="1">79</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يأمرُكم</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">يأمرْكم</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) يأمرْكم
+2) يأمرُ۬كم</td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يأمرُكم</td>
+<td style="text-align:right;" colspan="1">وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَـٰٓئِكَةَ وَٱلنَّبِيِّـۧنَ أَرْبَابًا ۗ</td>
+<td colspan="1">80</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">أيأمرْكم</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">1) أيأمرْكم
+2) أيأمرُ۬كم</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ</td>
+<td colspan="1">80</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لِما</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلنَّبِيِّـۧنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَـٰبٍۢ وَحِكْمَةٍۢ</td>
+<td colspan="1">81</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ءاتيناكم</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ءاتيناكم</td>
+<td style="text-align:right;" colspan="1">وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلنَّبِيِّـۧنَ لَمَآ ءَاتَيْتُكُم مِّن كِتَـٰبٍۢ وَحِكْمَةٍۢ</td>
+<td colspan="1">81</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">تبغون</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">تبغون</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تبغون</td>
+<td style="text-align:right;" colspan="1">أَفَغَيْرَ دِينِ ٱللَّهِ يَبْغُونَ</td>
+<td colspan="1">83</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">تُرْجَعون</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يَرْجِعون</td>
+<td style="background-color:rgb(215,215,215);" colspan="15">تُرْجَعون</td>
+<td style="text-align:right;" colspan="1">وَلَهُۥٓ أَسْلَمَ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ طَوْعًۭا وَكَرْهًۭا وَإِلَيْهِ يُرْجَعُونَ</td>
+<td colspan="1">83</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">مِلُ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌۭ فَلَن يُقْبَلَ مِنْ أَحَدِهِم مِّلْءُ ٱلْأَرْضِ ذَهَبًۭا</td>
+<td colspan="1">91</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تُنْزَلَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تُنْزَلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ</td>
+<td colspan="1">93</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">حَجُّ</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">حَجُّ</td>
+<td style="text-align:right;" colspan="1">وَلِلَّهِ عَلَى ٱلنَّاسِ حِجُّ ٱلْبَيْتِ مَنِ ٱسْتَطَاعَ إِلَيْهِ سَبِيلًۭا ۚ</td>
+<td colspan="1">97</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نعمة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">نعمة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءًۭ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ</td>
+<td colspan="1">103</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">إمالة تقاته</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">تقليل تقاته بخلف</td>
+<td colspan="1"></td>
+<td style="text-align:right;" colspan="1">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ حَقَّ تُقَاتِهِۦ</td>
+<td colspan="1">102</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">تَرْجِعُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تَرْجِعُ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَرْجِعُ</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ</td>
+<td colspan="1">109</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تفعلوا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">تفعلوا</td>
+<td style="text-align:right;" colspan="1">وَمَا يَفْعَلُوا۟ مِنْ خَيْرٍۢ فَلَن يُكْفَرُوهُ ۗ</td>
+<td colspan="1">115</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">تُكْفَروهُ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(215,215,215);" colspan="5">تُكْفَروهُ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تُكْفَروهُ ۥ </td>
+<td style="background-color:rgb(215,215,215);" colspan="2">تُكْفَروهُ</td>
+<td style="text-align:right;" colspan="1">وَمَا يَفْعَلُوا۟ مِنْ خَيْرٍۢ فَلَن يُكْفَرُوهُ ۗ</td>
+<td colspan="1">115</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تسؤهم</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">إِن تَمْسَسْكُمْ حَسَنَةٌۭ تَسُؤْهُمْ</td>
+<td colspan="1">120</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يَضِرْكم</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">يَضِرْكم</td>
+<td style="text-align:right;" colspan="1">وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ</td>
+<td colspan="1">120</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="16"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ترقيق راء صر</td>
+<td colspan="1"></td>
+<td style="text-align:right;" colspan="1">كَمَثَلِ رِيحٍۢ فِيهَا صِرٌّ</td>
+<td colspan="1">117</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مُنَزَّلين</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَـٰثَةِ ءَالَـٰفٍۢ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُنزَلِينَ</td>
+<td colspan="1">124</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">مسوَّمين</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">مسوَّمين</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مسوَّمين</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مسوَّمين</td>
+<td style="text-align:right;" colspan="1">يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَـٰفٍۢ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُسَوِّمِينَ</td>
+<td colspan="1">125</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">مضَعَّفة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مضَعَّفة</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مضَعَّفة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًۭا مُّضَـٰعَفَةًۭ ۖ</td>
+<td colspan="1">130</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">سارعوا</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وس۪ارعوا</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">سارعوا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">سارعوا</td>
+<td style="text-align:right;" colspan="1"> وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍۢ مِّن رَّبِّكُمْ وَجَنَّةٍ</td>
+<td colspan="1">133</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قُتِلَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">قُتِلَ</td>
+<td style="text-align:right;" colspan="1">وَكَأَيِّن مِّن نَّبِىٍّۢ قَـٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌۭ</td>
+<td colspan="1">146</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(190,190,190);" colspan="2">نُؤْتِهِ</td>
+<td style="background-color:rgb(165,165,165);" colspan="2">نُوتِهْ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">نُؤْتِهْ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(140,140,140);" colspan="1">1) نُؤْتِهِ
+2) نُؤْتِهِۦ</td>
+<td style="background-color:rgb(165,165,165);" colspan="1">نُوتِهْ</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">نُؤْتِهْ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">نُوتِهِۦ</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">نُؤْتِهِ</td>
+<td style="text-align:right;" colspan="1">وَمَن يُرِدْ ثَوَابَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَن يُرِدْ ثَوَابَ ٱلْـَٔاخِرَةِ نُؤْتِهِۦ مِنْهَا ۚ</td>
+<td colspan="1">145</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">الرعُب</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">الرعُب</td>
+<td colspan="5"></td>
+<td style="text-align:right;" colspan="1">سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًۭا ۖ</td>
+<td colspan="1">151</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُنْزِلْ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُنْزِلْ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًۭا ۖ</td>
+<td colspan="1">151</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">تغشى</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تغشى</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةًۭ نُّعَاسًۭا يَغْشَىٰ طَآئِفَةًۭ مِّنكُمْ ۖ</td>
+<td colspan="1">154</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">كُلُّهُ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">كُلُّهُ</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ</td>
+<td colspan="1">154</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">يعملون</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يعملون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعملون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لِيَجْعَلَ ٱللَّهُ ذَٰلِكَ حَسْرَةًۭ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ يُحْىِۦ وَيُمِيتُ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌۭ</td>
+<td colspan="1">156</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">مِتُّم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">مِتُّم</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مِتُّم</td>
+<td style="text-align:right;" colspan="1">وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌۭ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌۭ مِّمَّا يَجْمَعُونَ</td>
+<td colspan="1">157</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="18">تجمعون</td>
+<td style="text-align:right;" colspan="1">وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌۭ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌۭ مِّمَّا يَجْمَعُونَ</td>
+<td colspan="1">157</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ينصرْكم</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">1) ينصرْكم
+2) ينصرُ۬كم</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ</td>
+<td colspan="1">160</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="9">يُغَلَّ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُغَلَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُغَلَّ</td>
+<td style="text-align:right;" colspan="1">وَمَا كَانَ لِنَبِىٍّ أَن يَغُلَّ ۚ</td>
+<td colspan="1">161</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">قُتِّلوا</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ</td>
+<td colspan="1">168</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="3">تَحْسِبَنَّ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">تَحْسِبَنَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">1) يَحْسَبَنَّ
+2) تَحْسَبَنَّ</td>
+<td style="background-color:rgb(215,215,215);" colspan="6">تَحْسِبَنَّ</td>
+<td style="text-align:right;" colspan="1">وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ</td>
+<td colspan="1">169</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قُتِّلوا</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ</td>
+<td colspan="1">169</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وإِنَّ</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">۞ يَسْتَبْشِرُونَ بِنِعْمَةٍۢ مِّنَ ٱللَّهِ وَفَضْلٍۢ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ</td>
+<td colspan="1">171</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="3">يَحْسِبَنَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَحْسَبَنَّ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="6">يَحْسِبَنَّ</td>
+<td style="text-align:right;" colspan="1">وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا نُمْلِى لَهُمْ خَيْرٌۭ لِّأَنفُسِهِمْ ۚ</td>
+<td colspan="1">178</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="3">يَحْسِبَنَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَحْسَبَنَّ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="6">يَحْسِبَنَّ</td>
+<td style="text-align:right;" colspan="1">وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًۭا لَّهُم ۖ</td>
+<td colspan="1">180</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">يُمَيِّزَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُمَيِّزَ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ</td>
+<td colspan="1">179</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يعملون</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يعملون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌۭ</td>
+<td colspan="1">180</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وخافونى</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وخافون ۦ </td>
+<td colspan="7"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وخافون ۦ </td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">إِنَّمَا ذَٰلِكُمُ ٱلشَّيْطَـٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْ وَخَافُونِ إِن كُنتُم مُّؤْمِنِينَ</td>
+<td colspan="1">175</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="8"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">سيُكْتَبُ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ</td>
+<td colspan="1">181</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="8"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">وقتلُهم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ</td>
+<td colspan="1">181</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="8"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ويقول</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّۢ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ</td>
+<td colspan="1">181</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وبالزبر</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌۭ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَـٰتِ وَٱلزُّبُرِ وَٱلْكِتَـٰبِ ٱلْمُنِيرِ</td>
+<td colspan="1">184</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">وبالكتاب</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌۭ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَـٰتِ وَٱلزُّبُرِ وَٱلْكِتَـٰبِ ٱلْمُنِيرِ</td>
+<td colspan="1">184</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1"> لَيُبَيِّنُنَّهُۥ </td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4"> لَيُبَيِّنُنَّهُۥ </td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ</td>
+<td colspan="1">187</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1"> يَكْتُمُونَهُۥ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4"> يَكْتُمُونَهُۥ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَإِذْ أَخَذَ ٱللَّهُ مِيثَـٰقَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ</td>
+<td colspan="1">187</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="3">تَحْسِبَنَّ</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">يَحْسَبَنَّ</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">تَحْسِبَنَّ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(190,190,190);" colspan="2">يَحْسَبَنَّ</td>
+<td style="background-color:rgb(240,240,240);" colspan="6">يَحْسِبَنَّ</td>
+<td style="text-align:right;" colspan="1">لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍۢ مِّنَ ٱلْعَذَابِ ۖ</td>
+<td colspan="1">188</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">تَحْسِبَنَّهُم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَحْسِبَنَّهُم</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">يَحْسِبُنَّهُم</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَحْسِبَنَّهُم</td>
+<td style="text-align:right;" colspan="1">لَا تَحْسَبَنَّ ٱلَّذِينَ يَفْرَحُونَ بِمَآ أَتَوا۟ وَّيُحِبُّونَ أَن يُحْمَدُوا۟ بِمَا لَمْ يَفْعَلُوا۟ فَلَا تَحْسَبَنَّهُم بِمَفَازَةٍۢ مِّنَ ٱلْعَذَابِ ۖ</td>
+<td colspan="1">188</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">وَقُتِلُوا۟  وقَـٰتَلُوا۟ </td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وَقُتِلُوا۟  وقَـٰتَلُوا۟ </td>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وقُتِّلوا</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">وقُتِّلوا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فَٱلَّذِينَ هَاجَرُوا۟ وَأُخْرِجُوا۟ مِن دِيَـٰرِهِمْ وَأُوذُوا۟ فِى سَبِيلِى وَقَـٰتَلُوا۟ وَقُتِلُوا۟ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ</td>
+<td colspan="1">195</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يغُرَّنْكَ</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">لَا يَغُرَّنَّكَ تَقَلُّبُ ٱلَّذِينَ كَفَرُوا۟ فِى ٱلْبِلَـٰدِ</td>
+<td colspan="1">196</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">لكنَّ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">لَـٰكِنِ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ لَهُمْ جَنَّـٰتٌۭ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ</td>
+<td colspan="1">198</td>
+<td colspan="1">3</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تسَّاءلون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">تسَّاءلون</td>
+<td style="text-align:right;" colspan="1">وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ</td>
+<td colspan="1">1</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">والأرحامِ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ</td>
+<td colspan="1">1</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فواحدةٌ</td>
+<td colspan="12"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1"> </td>
+<td style="text-align:right;" colspan="1">فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً أَوْ مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۚ</td>
+<td colspan="1">3</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قِيَماً</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قِيَماً</td>
+<td style="text-align:right;" colspan="1">وَلَا تُؤْتُوا۟ ٱلسُّفَهَآءَ أَمْوَٰلَكُمُ ٱلَّتِى جَعَلَ ٱللَّهُ لَكُمْ قِيَـٰمًۭا</td>
+<td colspan="1">5</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وسيُصلون</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَـٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًۭا ۖ وَسَيَصْلَوْنَ سَعِيرًۭا</td>
+<td colspan="1">10</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واحدةٌ</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واحدةٌ</td>
+<td style="text-align:right;" colspan="1">وَإِن كَانَتْ وَٰحِدَةًۭ فَلَهَا ٱلنِّصْفُ ۚ</td>
+<td colspan="1">11</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فلإِمِّه</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌۭ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ</td>
+<td colspan="1">11</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">يُوصَىٰ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُوصَىٰ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ</td>
+<td colspan="1">11</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ضع۪افاً</td>
+<td colspan="10"></td>
+<td style="text-align:right;" colspan="1">وَلْيَخْشَ ٱلَّذِينَ لَوْ تَرَكُوا۟ مِنْ خَلْفِهِمْ ذُرِّيَّةًۭ ضِعَـٰفًا خَافُوا۟ عَلَيْهِمْ</td>
+<td colspan="1">9</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="9">يُوصِى</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُوصِى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُوصِى</td>
+<td style="text-align:right;" colspan="1">مِنۢ بَعْدِ وَصِيَّةٍۢ يُوصَىٰ بِهَآ أَوْ دَيْنٍ غَيْرَ مُضَآرٍّۢ ۚ</td>
+<td colspan="1">12</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td style="text-align:right;" colspan="1">وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّـٰتٍۢ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ</td>
+<td colspan="1">13</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ندخله</td>
+<td style="text-align:right;" colspan="1">وَمَن يَعْصِ ٱللَّهَ وَرَسُولَهُۥ وَيَتَعَدَّ حُدُودَهُۥ يُدْخِلْهُ نَارًا</td>
+<td colspan="1">14</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="14"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وَٱلَّذَانِّ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَٱلَّذَانِ يَأْتِيَـٰنِهَا مِنكُمْ فَـَٔاذُوهُمَا ۖ</td>
+<td colspan="1">16</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">كُرهاً</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">كُرهاً</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًۭا ۖ</td>
+<td colspan="1">19</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">مبيَّنة</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مبيَّنة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍۢ مُّبَيِّنَةٍۢ ۚ</td>
+<td colspan="1">19</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="18"></td>
+<td style="text-align:right;" colspan="1">۞ وَٱلْمُحْصَنَـٰتُ مِنَ ٱلنِّسَآءِ إِلَّا مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۖ كِتَـٰبَ ٱللَّهِ عَلَيْكُمْ ۚ</td>
+<td colspan="1">24</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأَحَلَّ</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">وأَحَلَّ</td>
+<td style="text-align:right;" colspan="1">وَأُحِلَّ لَكُم مَّا وَرَآءَ ذَٰلِكُمْ أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ غَيْرَ مُسَـٰفِحِينَ ۚ</td>
+<td colspan="1">24</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">المحصِنات</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَـٰتِ ٱلْمُؤْمِنَـٰتِ</td>
+<td colspan="1">25</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">محصِنات</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَـٰتٍ غَيْرَ مُسَـٰفِحَـٰتٍۢ</td>
+<td colspan="1">25</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">أَحصَنَّ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="5">أَحصَنَّ</td>
+<td colspan="8"></td>
+<td style="text-align:right;" colspan="1">فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَـٰحِشَةٍۢ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَـٰتِ</td>
+<td colspan="1">25</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">المحصِنات</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَـٰحِشَةٍۢ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَـٰتِ</td>
+<td colspan="1">25</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تجارةً</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">تجارةً</td>
+<td style="text-align:right;" colspan="1">إِلَّآ أَن تَكُونَ تِجَـٰرَةً عَن تَرَاضٍۢ مِّنكُمْ ۚ</td>
+<td colspan="1">29</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مَدخلاً</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مَدخلاً</td>
+<td style="text-align:right;" colspan="1">نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًۭا كَرِيمًۭا</td>
+<td colspan="1">31</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">وسَلُوا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وسَلُوا</td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وسَلُوا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ</td>
+<td colspan="1">32</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">عاقدت</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">عاقدت</td>
+<td style="text-align:right;" colspan="1">وَٱلَّذِينَ عَقَدَتْ أَيْمَـٰنُكُمْ فَـَٔاتُوهُمْ نَصِيبَهُمْ ۚ</td>
+<td colspan="1">33</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">اللهَ</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">فَٱلصَّـٰلِحَـٰتُ قَـٰنِتَـٰتٌ حَـٰفِظَـٰتٌۭ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ</td>
+<td colspan="1">34</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">بالبَخَل</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">بالبَخَل</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ</td>
+<td colspan="1">37</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">الج۪ار</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">تقليل الجار بخلف</td>
+<td colspan="1"></td>
+<td style="text-align:right;" colspan="1">وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ</td>
+<td colspan="1">36</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والصاحب بّالجنب</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والصاحب بّالجنب</td>
+<td colspan="5"></td>
+<td style="text-align:right;" colspan="1">وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ</td>
+<td colspan="1">36</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">حسنةٌ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">حسنةٌ</td>
+<td style="text-align:right;" colspan="1">وَإِن تَكُ حَسَنَةًۭ يُضَـٰعِفْهَا</td>
+<td colspan="1">40</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يضَعِّفْها</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يضَعِّفْها</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يضَعِّفْها</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَإِن تَكُ حَسَنَةًۭ يُضَـٰعِفْهَا</td>
+<td colspan="1">40</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">تَسَوَّى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَسَّوَّى</td>
+<td style="background-color:rgb(215,215,215);" colspan="4">تَسَوَّى</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَسَّوَّى</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَسَّوَّى</td>
+<td style="text-align:right;" colspan="1">يَوْمَئِذٍۢ يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ وَعَصَوُا۟ ٱلرَّسُولَ لَوْ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ</td>
+<td colspan="1">42</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">لمستم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">لمستم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">أَوْ لَـامَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟</td>
+<td colspan="1">43</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يامرْكم</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">1) يأمرْكم
+2) يأمرُ۬كم</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">۞ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَـٰنَـٰتِ إِلَىٰٓ أَهْلِهَا </td>
+<td colspan="1">58</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">نَعِمَّا</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نِعْمَّا</td>
+<td style="background-color:rgb(215,215,215);" colspan="4">نَعِمَّا</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) نِعِ۪مَّا
+2) نِعْمَّا</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">نَعِمَّا</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">1) نِعِ۪مَّا
+2) نِعْمَّا</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) نِعِ۪مَّا
+2) نِعْمَّا</td>
+<td style="text-align:right;" colspan="1">إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ</td>
+<td colspan="1">58</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">أنُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">أنُ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أنُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">أنُ</td>
+<td style="text-align:right;" colspan="1">وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَـٰرِكُم</td>
+<td colspan="1">66</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="7">أوُ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">أوُ</td>
+<td style="text-align:right;" colspan="1">وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَـٰرِكُم</td>
+<td colspan="1">66</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">قليلًا</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">مَّا فَعَلُوهُ إِلَّا قَلِيلٌۭ مِّنْهُمْ ۖ</td>
+<td colspan="1">66</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="2">يكن</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="11">يكن</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يكن</td>
+<td style="text-align:right;" colspan="1">وَلَئِنْ أَصَـٰبَكُمْ فَضْلٌۭ مِّنَ ٱللَّهِ لَيَقُولَنَّ كَأَن لَّمْ تَكُنۢ بَيْنَكُمْ وَبَيْنَهُۥ مَوَدَّةٌۭ</td>
+<td colspan="1">73</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="2">يظلمون</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">يظلمون</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يظلمون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">قُلْ مَتَـٰعُ ٱلدُّنْيَا قَلِيلٌۭ وَٱلْـَٔاخِرَةُ خَيْرٌۭ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا</td>
+<td colspan="1">77</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">بيتْ طّائفة</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">بيتْ طّائفة</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">بَيَّتَ طَآئِفَةٌۭ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ ۖ</td>
+<td colspan="1">81</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">أص۬دق</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">أص۬دق</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">أص۬دق</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًۭا</td>
+<td colspan="1">87</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">حصرةً</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَن يُقَـٰتِلُوكُمْ أَوْ يُقَـٰتِلُوا۟ قَوْمَهُمْ ۚ</td>
+<td colspan="1">90</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">فتثبتوا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">فتثبتوا</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟</td>
+<td colspan="1">94</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">السلَم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">السلَم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">السلَم</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">السلَم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">السلَم</td>
+<td style="text-align:right;" colspan="1">وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلامَ لَسْتَ مُؤْمِنًۭا</td>
+<td colspan="1">94</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">مؤمَنًا</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلامَ لَسْتَ مُؤْمِنًۭا</td>
+<td colspan="1">94</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">غيرَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">غيرَ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">غيرَ</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">غيرَ</td>
+<td style="text-align:right;" colspan="1">لَّا يَسْتَوِى ٱلْقَـٰعِدُونَ مِنَ ٱلْمُؤْمِنِينَ غَيْرُ أُو۟لِى ٱلضَّرَرِ</td>
+<td colspan="1">95</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إدغام بخلف</td>
+<td colspan="5"></td>
+<td style="text-align:right;" colspan="1">وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟</td>
+<td colspan="1">102</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">يؤتيه</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">يؤتيه</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يوتيه</td>
+<td style="background-color:rgb(215,215,215);" colspan="1">يؤتيه</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًۭا</td>
+<td colspan="1">114</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">مرضاة</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًۭا</td>
+<td colspan="1">114</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">نولهِ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نولهْ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">نولهْ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1) نولهِ
+2) نولهِۦ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نولهْ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">نولهِ</td>
+<td style="text-align:right;" colspan="1">وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ</td>
+<td colspan="1">115</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">ونصلهِ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ونصلهْ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">ونصلهْ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">1)ونصلهِ
+2) ونصلهِۦ</td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ونصلهْ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">ونصلهِ</td>
+<td style="text-align:right;" colspan="1">وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ</td>
+<td colspan="1">115</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">أص۬دق</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">أص۬دق</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">أص۬دق</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ قِيلًۭا</td>
+<td colspan="1">122</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">بأمانِيكم</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَـٰبِ ۗ</td>
+<td colspan="1">123</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">أمانِى</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَـٰبِ ۗ</td>
+<td colspan="1">123</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يُدْخَلون</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُدْخَلون</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">يُدْخَلون</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يُدْخَلون</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَمَن يَعْمَلْ مِنَ ٱلصَّـٰلِحَـٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌۭ فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًۭا</td>
+<td colspan="1">124</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إبراهام</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًۭا</td>
+<td colspan="1">125</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">يَصَّالَحا</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="9">يَصَّالَحا</td>
+<td style="text-align:right;" colspan="1">وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًۭا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًۭا ۚ</td>
+<td colspan="1">128</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَلُوا</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تَلُوا</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَإِن تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًۭا</td>
+<td colspan="1">135</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">نُزِّلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ</td>
+<td colspan="1">136</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">أُنزِلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِى نَزَّلَ عَلَىٰ رَسُولِهِۦ وَٱلْكِتَـٰبِ ٱلَّذِىٓ أَنزَلَ مِن قَبْلُ ۚ</td>
+<td colspan="1">136</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">نُزِّلَ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">نُزِّلَ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">نُزِّلَ</td>
+<td style="text-align:right;" colspan="1">وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَـٰبِ أَنْ إِذَا سَمِعْتُمْ ءَايَـٰتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ</td>
+<td colspan="1">140</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">الدَّرَكِ</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="8">الدَّرَكِ</td>
+<td style="text-align:right;" colspan="1">إِنَّ ٱلْمُنَـٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا</td>
+<td colspan="1">145</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يؤتِى</td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًۭا</td>
+<td colspan="1">146</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">نؤتيهِم</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">نؤتيهُم</td>
+<td style="background-color:rgb(190,190,190);" colspan="2">نوتيهِم</td>
+<td style="background-color:rgb(240,240,240);" colspan="7">نؤتيهِم</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">نوتيهِم</td>
+<td style="background-color:rgb(240,240,240);" colspan="3">نؤتيهِم</td>
+<td style="background-color:rgb(190,190,190);" colspan="1">نوتيهِم</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">نؤتيهِم</td>
+<td style="text-align:right;" colspan="1">وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍۢ مِّنْهُمْ أُو۟لَـٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ</td>
+<td colspan="1">152</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تُنْزِلَ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">تُنْزِلَ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">يَسْـَٔلُكَ أَهْلُ ٱلْكِتَـٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَـٰبًۭا مِّنَ ٱلسَّمَآءِ ۚ</td>
+<td colspan="1">153</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">أرْنا</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(215,215,215);" colspan="1">أرْنا</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">أر۪نا</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">أرْنا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">فَقَالُوٓا۟ أَرِنَا ٱللَّهَ جَهْرَةًۭ فَأَخَذَتْهُمُ ٱلصَّـٰعِقَةُ بِظُلْمِهِمْ ۚ</td>
+<td colspan="1">153</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">تعْدُّوا</td>
+<td colspan="11"></td>
+<td style="background-color:rgb(190,190,190);" colspan="1">تعَدُّوا</td>
+<td style="background-color:rgb(240,240,240);" colspan="1">1) تع۬دُّا
+2) تعْدُّوا</td>
+<td style="text-align:right;" colspan="1">وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى ٱلسَّبْتِ وَأَخَذْنَا مِنْهُم مِّيثَـٰقًا غَلِيظًۭا</td>
+<td colspan="1">154</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">سيؤتيهم</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">سيؤتيهم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ أُو۟لَـٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا</td>
+<td colspan="1">162</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="11"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">إبراهام</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَـٰعِيلَ وَإِسْحَـٰقَ</td>
+<td colspan="1">163</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">زُبوراً</td>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">زُبوراً</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَءَاتَيْنَا دَاوُۥدَ زَبُورًۭا</td>
+<td colspan="1">163</td>
+<td colspan="1">4</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">شَنْـَٔان</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">شَنْـَٔان</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ</td>
+<td colspan="1">2</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">إن</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ</td>
+<td colspan="1">2</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="15"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">ولآ تّعاونوا</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ</td>
+<td colspan="1">2</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">الميِّتة</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ</td>
+<td colspan="1">3</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="background-color:rgb(215,215,215);" colspan="1">فمنُ اضطُر</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">فمنُ اضطِر</td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فمنُ اضطُر</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">فمنُ اضطُر</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(215,215,215);" colspan="4">فمنُ اضطُر</td>
+<td style="text-align:right;" colspan="1">فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ ۙ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ</td>
+<td colspan="1">3</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">المحصِنات</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَٱلْمُحْصَنَـٰتُ مِنَ ٱلْمُؤْمِنَـٰتِ وَٱلْمُحْصَنَـٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ</td>
+<td colspan="2">5</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واخشونِۦ </td>
+<td colspan="15"></td>
+<td style="text-align:right;" colspan="1">ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ</td>
+<td colspan="1">3</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">وأرجلِكم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأرجلِكم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">وأرجلِكم</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وأرجلِكم</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ</td>
+<td colspan="1">6</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">لمستم</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">لمستم</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">أَوْ لَـٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءًۭ فَتَيَمَّمُوا۟</td>
+<td colspan="1">6</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">شَنْـَٔان</td>
+<td colspan="4"></td>
+<td style="background-color:rgb(240,240,240);" colspan="3">شَنْـَٔان</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ عَلَىٰٓ أَلَّا تَعْدِلُوا۟ ۚ</td>
+<td colspan="1">8</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">قَسِيَّة</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">فَبِمَا نَقْضِهِم مِّيثَـٰقَهُمْ لَعَنَّـٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَـٰسِيَةًۭ ۖ</td>
+<td colspan="1">13</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نعمة</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">نعمة</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">نعمة</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ</td>
+<td colspan="1">11</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="18"></td>
+<td style="text-align:right;" colspan="1">يَهْدِى بِهِ ٱللَّهُ مَنِ ٱتَّبَعَ رِضْوَٰنَهُۥ سُبُلَ ٱلسَّلَـٰمِ</td>
+<td colspan="1">16</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="3">يدى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="7">يدى</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يدى</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">لَئِنۢ بَسَطتَ إِلَىَّ يَدَكَ لِتَقْتُلَنِى مَآ أَنَا۠ بِبَاسِطٍۢ يَدِىَ إِلَيْكَ لِأَقْتُلَكَ ۖ</td>
+<td colspan="1">28</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">منِ اجل</td>
+<td colspan="13"></td>
+<td style="text-align:right;" colspan="1">مِنْ أَجْلِ ذَٰلِكَ كَتَبْنَا عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ</td>
+<td colspan="1">32</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="12"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">رسْلنا</td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">وَلَقَدْ جَآءَتْهُمْ رُسُلُنَا بِٱلْبَيِّنَـٰتِ</td>
+<td colspan="1">32</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="16"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">يُحزِنك</td>
+<td style="text-align:right;" colspan="1">۞ يَـٰٓأَيُّهَا ٱلرَّسُولُ لَا يَحْزُنكَ ٱلَّذِينَ يُسَـٰرِعُونَ فِى ٱلْكُفْرِ</td>
+<td colspan="1">41</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">للسحُت</td>
+<td colspan="5"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">للسحُت</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">سَمَّـٰعُونَ لِلْكَذِبِ أَكَّـٰلُونَ لِلسُّحْتِ ۚ</td>
+<td colspan="1">42</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والعينُ</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ</td>
+<td colspan="1">45</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والأنفُ</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَٱلْأَنفَ بِٱلْأَنفِ</td>
+<td colspan="1">45</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والأذُنُ</td>
+<td colspan="9"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">والأذْنَ</td>
+<td style="text-align:right;" colspan="1">وَٱلْأُذُنَ بِٱلْأُذُنِ</td>
+<td colspan="1">45</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="6"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والسنُّ</td>
+<td colspan="11"></td>
+<td style="text-align:right;" colspan="1">وَٱلسِّنَّ بِٱلسِّنِّ</td>
+<td colspan="1">45</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">والجروحُ</td>
+<td colspan="1"></td>
+<td style="background-color:rgb(240,240,240);" colspan="1">والجروحُ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="6">والجروحُ</td>
+<td colspan="2"></td>
+<td style="text-align:right;" colspan="1">وَٱلْجُرُوحَ قِصَاصٌۭ ۚ</td>
+<td colspan="1">45</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="1"></td>
+<td style="background-color:rgb(215,215,215);" colspan="2">واخشونِى </td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واخشونِۦ </td>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">واخشونِۦ </td>
+<td colspan="4"></td>
+<td style="text-align:right;" colspan="1">فَلَا تَخْشَوُا۟ ٱلنَّاسَ وَٱخْشَوْنِ وَلَا تَشْتَرُوا۟ بِـَٔايَـٰتِى ثَمَنًۭا قَلِيلًۭا ۚ</td>
+<td colspan="1">44</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="7"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">ولِيحكمَ</td>
+<td colspan="9"></td>
+<td style="text-align:right;" colspan="1">وَلْيَحْكُمْ أَهْلُ ٱلْإِنجِيلِ بِمَآ أَنزَلَ ٱللَّهُ فِيهِ ۚ</td>
+<td colspan="1">47</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="background-color:rgb(240,240,240);" colspan="1">وأنُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وأنُ</td>
+<td colspan="3"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">وأنُ</td>
+<td colspan="2"></td>
+<td style="background-color:rgb(240,240,240);" colspan="4">وأنُ</td>
+<td style="text-align:right;" colspan="1">وَأَنِ ٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ</td>
+<td colspan="1">49</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td colspan="10"></td>
+<td style="background-color:rgb(240,240,240);" colspan="2">تبغون</td>
+<td colspan="6"></td>
+<td style="text-align:right;" colspan="1">أَفَحُكْمَ ٱلْجَـٰهِلِيَّةِ يَبْغُونَ ۚ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ حُكْمًۭا لِّقَوْمٍۢ يُوقِنُونَ</td>
+<td colspan="1">50</td>
+<td colspan="1">5</td>
+</tr>
+<tr>
+<td style="text-align:right;" colspan="19"></td>
+<td colspan="1">ص125</td>
+<td colspan="1">5</td>
+</tr>
 </table>
 </div>
 </body>
